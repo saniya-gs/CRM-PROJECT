@@ -49,13 +49,7 @@ public class UserContextService {
 
 		Employee HR = employeeDetails.getHr() == null ? new Employee() : employeeDetails.getHr(); // Assuming
 																													// `HRId`
-																													// is
-																													// part
-																													// of
-																													// the
-																													// EmployeeDetails
-																													// object
-
+																													// i
 		return HR.getEmpId();
 	}
 

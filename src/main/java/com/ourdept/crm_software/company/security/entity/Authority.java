@@ -26,3 +26,4 @@ public class Authority {
 	private Customer customer;
 
 }
+

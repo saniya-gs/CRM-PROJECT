@@ -14,7 +14,7 @@ public class SwaggerConfig {
     OpenAPI awesomeAPI() {
         return new OpenAPI()
                 .info(new Info().title("Our Dept CRM Software")
-                        .description("CRM Sowtware  endpoints")
+                        .description("CRM Software  endpoints")
                         .version("1.0")
 //                        .license(new License().name("Apache 2.0").url("http://www.apache.org/licenses/LICENSE-2.0"))
                         )
